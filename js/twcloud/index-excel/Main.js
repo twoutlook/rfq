@@ -117,7 +117,7 @@ Ext.onReady(function () {
             {id: 2, name: "LOOKUP", actived: true, color: "blue"},
             {id: 3, name: "LOOKUP2", actived: true, color: "blue"},
             {id: 5, name: "LOOKUP04", actived: true, color: "blue"},
-            {id: 9, name: "Remark", actived: true, color: "green"},
+//            {id: 9, name: "Remark", actived: true, color: "green"},
         ],
 //        floatings: [
 //            {sheet: 1, name: "colGroups", ftype: "colgroup", json: "[{level:1, span:[2,3]}, {level:1, span:[4,6]}]"},
