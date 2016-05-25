@@ -353,7 +353,7 @@ Ext.onReady(function () {
             {sheet: 2, row: 20, col: 1, json: {dsd: "ed", data: "THX-AM60"}},
             {sheet: 2, row: 20, col: 2, json: {dsd: "ed", data: "22.29"}},
             {sheet: 2, row: 20, col: 3, json: {dsd: "ed", data: "14.09"}},
-            {sheet: 1, row: 0, col: 0, json: {fz: 10, ww: 'break-word', ws: 'normal', dsd: "", height: 14, va: "middle"}},
+            {sheet: 1, row: 0, col: 0, json: {fz: 10, ww: 'break-word', ws: 'normal', dsd: "", height: 16, va: "middle"}},
             {sheet: 1, row: 0, col: 1, json: {ta: "center", dsd: "", data: "A", width: 60}},
             {sheet: 1, row: 0, col: 2, json: {ta: "center", data: "B", width: 160}},
             {sheet: 1, row: 0, col: 3, json: {dsd: "", width: 120}},
@@ -1391,53 +1391,7 @@ Ext.onReady(function () {
 
     }, this);
 
-    //DOING TESTING SAVE DATA
-    // SHEET_API.saveData(SHEET_API_HD, null, this);
-    //  TESING 05/07 12:03
-//    var cellData = SHEET_API.getCell(SHEET_API_HD, 1, 100, 2);
-
-// chck whether it is formula
-//    if (cellData.cal) {
-//        var formula = cellData.arg;
-//        var value = cellData.value;
-//        var result = cellData.data;
-//        var format = cellData.fm;
-//        var detailFormat = cellData.dfm;
-//    } else {
-//        var result = cellData.data;
-//        var format = cellData.fm;
-//        var detailFormat = cellData.dfm;
-//    }
-//    console.log("=== TESTING getCell 1,100,2 =>13)筛选包装 & 费率 /H：");
-//    console.log(cellData.data);
-
-//    function twcloudExportCells() {
-//        var cellDataB, cellDataC, cellDataD;
-//        console.log("--- DOING twcloudExportCells --- ");
-//        for (var i = 0; i < 114; i++) {
-//            cellDataB = SHEET_API.getCell(SHEET_API_HD, 1, i, 2);
-//            cellDataC = SHEET_API.getCell(SHEET_API_HD, 1, i, 3);
-//            cellDataD = SHEET_API.getCell(SHEET_API_HD, 1, i, 4);
-//
-////            if (cellData.cal) {
-////                var formula = cellData.arg;
-////                var value = cellData.value;
-////                var result = cellData.data;
-////                var format = cellData.fm;
-////                var detailFormat = cellData.dfm;
-////            } else {
-////                var result = cellData.data;
-////                var format = cellData.fm;
-////                var detailFormat = cellData.dfm;
-////            }
-//            console.log(i + " " + cellDataB.data);
-//            console.log(i + " " + cellDataC.data);
-//            console.log(i + " " + cellDataD.data);
-//
-//        }
-//    }
-//    twcloudExportCells();
-
+    
     SHEET_API.setFocus(SHEET_API_HD, 3, 1);
     // add event listener - this shows the code to add customer function 
     var sheet = SHEET_API_HD.sheet;
