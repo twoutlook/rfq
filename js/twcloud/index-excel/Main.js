@@ -376,7 +376,7 @@ Ext.onReady(function () {
 //           {sheet: 1, row: 3, col: 1, json: {data: "EXP1", it: "button", btnStyle: "color: #900; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK_CALLBACK_FN"}},
             {sheet: 1, row: 3, col: 2, json: {data: "接受询价日期："}},
             //  {sheet: 1, row: 2, col: 3, json:{ data: "TODO 保存數據", it: "button", btnStyle: "color: #900; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK_CALLBACK_FN" } },
-            {sheet: 1, row: 4, col: 1, json: {data: "生成", it: "button", btnStyle: "color: blue; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK___MAKE_EXCEL"}},
+            {sheet: 1, row: 3, col: 1, json: {data: "生成", it: "button", btnStyle: "color: blue; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK___MAKE_EXCEL"}},
             {sheet: 1, row: 4, col: 2, json: {data: "业务担当："}},
             {sheet: 1, row: 4, col: 3, json: {data: ""}},
             {sheet: 1, row: 5, col: 1, json: {data: ""}},
@@ -1313,8 +1313,8 @@ Ext.onReady(function () {
 
 // ------------ mark-tool-mainjs.php auto generate (end)  ---------------
 //
-//        
-            {sheet: 1, row: 3, col: 1, json: {data: ''}}
+//          // 只是做成最後一行
+            {sheet: 1, row: 1, col: 1, json: {data: ''}}
 
         ]
     };
